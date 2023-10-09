@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Cadastro</title>
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="./color.css">
 </head>
 <body>
-    <h1>Digite seu Formulario</h1>
+    <h1>Digite seu Formulário</h1>
     <form>
-        <label>seu nome</label>
-        <input type="text" name="seu nome"/>
-        <br />
-        <label>seu email</label>
-        <input type="email" name="email" />
-        <br />
-        <label>sua senha</label>
-        <input type="password" name="senha" />
-        <button>enviar</button>
-        <button>limpar</button>
+        <label for="seu-nome">Seu nome</label>
+        <input type="text" name="seu-nome" id="seu-nome">
+        <br>
+        <label for="email">Seu email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="senha">Sua senha</label>
+        <input type="password" name="senha" id="senha">
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
     </form>
 </body>
 </html>
